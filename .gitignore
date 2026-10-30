@@ -22,12 +22,17 @@ data/
 
 .DS_Store
 Thumbs.db
-requirements.txt
 
 scripts/test_index_quality.py
 scripts/test_indexing_speed.py
 scripts/test_single_source.py
 scripts/bench_backends.py
+
+prompt2.txt
+test_cases.json
+
+test_data/
+
 
 
 

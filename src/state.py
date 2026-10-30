@@ -6,6 +6,10 @@ Grade = Literal["relevant", "ambiguous", "irrelevant"]
 
 class RAGState(TypedDict, total=False):
     query: str
+    query_corrected: str
+    query_refined: str
+    query_intent: str
+    sub_questions: list[dict]
     query_en: str
     query_type: QueryType
     documents: list
